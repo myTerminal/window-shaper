@@ -42,8 +42,8 @@ buffer.
 
 Once the *window-shaper-mode* is enabled you can use the following shortcuts:
 
-right: increase window width
-left: decrease window width
-up: increase window height
-down: decrease window height
-q: disable window-shaper-mode
+* **right**: increase window width
+* **left**: decrease window width
+* **up**: increase window height
+* **down**: decrease window height
+* **q**: disable window-shaper-mode

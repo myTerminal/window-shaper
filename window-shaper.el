@@ -64,7 +64,7 @@
 
 ;;;###autoload
 (define-minor-mode window-shaper-mode
-  "Toggle window-shaper-mode"
+  "Toggles window-shaper-mode."
   :init-value nil
   :global: t
   :lighter " window-shaper"
@@ -73,6 +73,10 @@
             (define-key map (kbd "<left>") 'shrink-window-horizontally)
             (define-key map (kbd "<up>") 'enlarge-window)
             (define-key map (kbd "<down>") 'shrink-window)
+            (define-key map (kbd "6") 'enlarge-window-horizontally)
+            (define-key map (kbd "4") 'shrink-window-horizontally)
+            (define-key map (kbd "8") 'enlarge-window)
+            (define-key map (kbd "2") 'shrink-window)
             (define-key map (kbd "q") 'window-shaper-mode)
             map)
   (if window-shaper-mode
